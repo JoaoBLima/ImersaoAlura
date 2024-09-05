@@ -1,26 +1,21 @@
 let dados = [
-    {
-      titulo: "Neymar Jr.",
-      descricao: "Considerado um dos melhores jogadores de futebol da atualidade, Neymar Jr. se destacou por sua habilidade, dribles e gols espetaculares. Atuou por grandes clubes como Santos, Barcelona e PSG.",
-      link: "https://pt.wikipedia.org/wiki/Neymar",
-      idade: 31, // Ajuste a idade conforme necessário
+  {
+      nome: "Cristo Redentor",
+      cidade: "Rio de Janeiro",
       pais: "Brasil",
-      times: ["Santos", "Barcelona", "PSG"]
-    },
-    {
-      titulo: "Lionel Messi",
-      descricao: "Lenda do futebol argentino, Messi é conhecido por sua elegância, habilidade e visão de jogo. Conquistou diversos títulos com o Barcelona e a seleção argentina.",
-      link: "https://pt.wikipedia.org/wiki/Lionel_Messi",
-      idade: 36, // Ajuste a idade conforme necessário
-      pais: "Argentina",
-      times: ["Barcelona", "PSG", "Inter Miami"]
-    },
-    {
-      titulo: "Luis Suárez",
-      descricao: "O uruguaio Luis Suárez é conhecido por sua garra, gols e assistências. Formou um trio de ataque histórico com Messi e Neymar no Barcelona.",
-      link: "https://pt.wikipedia.org/wiki.Luis_Suárez",
-      idade: 36, // Ajuste a idade conforme necessário
-      pais: "Uruguai",
-      times: ["Nacional", "Ajax", "Liverpool", "Barcelona", "Atlético de Madrid"]
-    }
-  ];
+      descricao: " Cristo Redentor é uma das sete maravilhas do mundo moderno e um dos maiores símbolos do Brasil. Localizado no topo do Morro do Corcovado, no Rio de Janeiro, a estátua tem 38 metros de altura e oferece uma vista panorâmica da cidade",
+      imagem: "cristo-redentor.jpg",
+      link: "https://www.rio.com/rio-de-janeiro/cristo-redentor",
+      categoria: "Religioso"
+  },
+  {
+      nome: "Torre Eiffel",
+      cidade: "Paris",
+      pais: "França",
+      descricao: "A Torre Eiffel é um dos monumentos mais icônicos do mundo, localizada em Paris, França. Inaugurada em 1889, a torre foi projetada pelo engenheiro Gustave Eiffel para a Exposição Universal e tornou-se um símbolo da engenharia moderna e da cidade de Paris.",
+      imagem: "torre-eiffel.jpg",
+      link: "https://www.toureiffel.paris/",
+      categoria: "Histórico"
+  },
+  // ... outros pontos turísticos
+];
